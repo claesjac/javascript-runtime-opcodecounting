@@ -1,5 +1,8 @@
 Revision history for Perl extension JavaScript::Runtime::OpcodeCounting.
 
+1.02 ...
+    - Fix Makefile.PL to work with newer naming convention of spidermonkey on macports
+
 1.01 ...
     - Adapted to work with JavaScript 1.03 which it also now requires.
     

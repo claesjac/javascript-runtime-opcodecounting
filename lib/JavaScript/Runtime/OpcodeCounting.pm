@@ -8,7 +8,7 @@ use Carp qw(croak);
 
 use JavaScript::Error::OpcodeLimitExceeded;
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 require XSLoader;
 XSLoader::load('JavaScript::Runtime::OpcodeCounting', $VERSION);
