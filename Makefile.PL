@@ -39,6 +39,9 @@ if(-f "/etc/gentoo-release") {
 if (-d "/opt/local/include/spidermonkey") {
     push @incs, "/opt/local/include/spidermonkey";
 }
+if (-d "/opt/local/include/js") {
+    push @incs, "/opt/local/include/js";
+}
 
 # Override with  $ENV{JS_INC}
 if (exists $ENV{JS_INC}) {
